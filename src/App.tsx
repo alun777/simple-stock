@@ -52,11 +52,8 @@ const App = () => {
         >
           <Router>
             <Routes>
-              <Route
-                path='/'
-                element={<Navigate to='/simple-stock/stocks' replace />}
-              />
-              <Route path='/simple-stock/stocks' element={<StocksPage />} />
+              <Route path='/' element={<Navigate to='/stocks' replace />} />
+              <Route path='/stocks' element={<StocksPage />} />
             </Routes>
           </Router>
         </Box>
