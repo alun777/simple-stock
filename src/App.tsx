@@ -12,11 +12,11 @@ import { enUS } from "@mui/material/locale";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/simple-stock",
     element: <Navigate to='/stocks' replace={true} />,
   },
   {
-    path: "/stocks",
+    path: "/simple-stock/stocks",
     element: <StocksPage />,
   },
 ]);
