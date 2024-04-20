@@ -13,7 +13,7 @@ import { enUS } from "@mui/material/locale";
 const router = createBrowserRouter([
   {
     path: "/simple-stock",
-    element: <Navigate to='/stocks' replace={true} />,
+    element: <Navigate to='/simple-stock/stocks' replace={true} />,
   },
   {
     path: "/simple-stock/stocks",
