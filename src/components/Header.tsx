@@ -81,7 +81,7 @@ const Header = () => {
                   <Link
                     key={i}
                     underline='none'
-                    href='/'
+                    href='/simple-stock/stocks'
                     sx={{ color: "white" }}
                   >
                     <Typography variant='body2'>{linkText}</Typography>

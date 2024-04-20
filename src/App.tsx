@@ -11,17 +11,6 @@ import StocksPage from "./pages/StocksPage";
 import { Box } from "@mui/material";
 import { enUS } from "@mui/material/locale";
 
-// const router = createBrowserRouter([
-//   {
-//     path: "/simple-stock",
-//     element: <Navigate to='/simple-stock/stocks' replace={true} />,
-//   },
-//   {
-//     path: "/simple-stock/stocks",
-//     element: <StocksPage />,
-//   },
-// ]);
-
 const theme = createTheme(
   {
     palette: {
